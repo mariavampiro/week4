@@ -9,7 +9,7 @@ console.log(month5,month11);
 
 //b
 
-//console.log(arr.sort());
+console.log(arr.sort());
 
 //c
 
@@ -25,7 +25,7 @@ console.log(arr);
 
 //e
 
-//arr.reverse();
+arr.reverse();
 console.log(arr);
 
 //f
