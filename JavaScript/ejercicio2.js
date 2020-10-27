@@ -13,12 +13,12 @@ console.log(st3);
 
 //c
 
-var st4=st2.substring(10,13);
+var st4=st2.substring(10,st2.length);
 console.log(st4);
 
 //d
 
-var st5=st2.substring(0,1).toUpperCase()+st2.substring(1,13);
+var st5=st2.substring(0,1).toUpperCase()+st2.substring(1,st2.length);
 console.log(st5);
 
 //e
@@ -30,5 +30,5 @@ console.log(position);
 //f
 
 var st7='problematica ejercicios';
-var st8=st7.substring(0,1).toUpperCase()+st7.substring(1,13)+st7.substring(13,14).toUpperCase()+st7.substring(14,22);
+var st8=st7.substring(0,1).toUpperCase()+st7.substring(1,13)+st7.substring(13,14).toUpperCase()+st7.substring(14,st7.length);
 console.log(st8);
