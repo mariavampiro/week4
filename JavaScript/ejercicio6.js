@@ -10,15 +10,18 @@ function suma(a,b){
 //b  A la función suma anterior, agregarle una validación para controlar si alguno de los parámetros no es un número, 
 //   mostrar una alerta aclarando que uno de los parámetros tiene error y retornar el valor NaN como resultado.
 
-function validacion(a,b){
-    if (isNaN(a)||isNaN(b)){
-        alert('Uno de los parametros tiene error');
-        if(isNaN(a)){
-            alert(a);
-        }else{
-            alert(b);
+function suma(a,b){
+    function validacion(a,b){
+        if (isNaN(a)||isNaN(b)){
+            alert('Uno de los parametros tiene error');
+            if(isNaN(a)){
+                alert(a);
+            }else{
+                alert(b);
+            }
         }
     }
+    return console.log(a+b);
 }
 
 //c Crear una función validate integer que reciba un número como parámetro y devuelva verdadero si es un número entero.
@@ -56,3 +59,9 @@ function validacion(a,b){
         }
     }
 }
+
+function suma(a,b){
+    validacion(a,b);
+    return console.log(a+b);
+}
+
